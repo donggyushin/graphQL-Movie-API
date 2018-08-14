@@ -5,5 +5,12 @@
   "main": "index.js",
   "repository": "https://github.com/donggyushin/graphQL-Movie-API",
   "author": "rontend",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "graphql-yoga": "^1.16.0"
+  },
+  "eslint.packageManager": "yarn",
+  "scripts": {
+    "start": "nodemon"
+  }
 }

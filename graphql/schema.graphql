@@ -1,0 +1,20 @@
+type puppy {
+    name: String!
+    age: Int!
+    gender: String!
+    owner: String!
+}
+
+type person {
+    id: Int!
+    name: String!
+    age: Int!
+    gender: String!
+}
+
+type Query {
+    hello(name:String): String!
+    puppy: puppy!
+    people: [person]!
+    person(id:Int!): person
+}
