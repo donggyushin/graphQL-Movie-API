@@ -1,0 +1,9 @@
+{
+  "name": "graphQL",
+  "version": "1.0.0",
+  "description": "Make simple movie api using graphQL. Lecture from nomadcoder",
+  "main": "index.js",
+  "repository": "https://github.com/donggyushin/graphQL-Movie-API",
+  "author": "rontend",
+  "license": "MIT"
+}
