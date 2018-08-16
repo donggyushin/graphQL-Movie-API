@@ -1,11 +1,17 @@
-type movie {
-
+type Movie {
+    id:Int!
+    title: String!
+    rating: Float!
+    year: Int!
+    genres: [String]!
+    summary: String!
+    language: String!
+    medium_cover_image: String!
+    date_uploaded:String!
 }
 
 type Query {
-    
-}
-
-type Mutation {
-    
+    movies:[Movie]!
+    movie(id:Int!):Movie!
+    suggestions(id:Int!):[Movie]
 }
